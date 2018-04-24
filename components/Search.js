@@ -18,7 +18,7 @@ Search = React.createClass({
 	},
 
 	
-	handleKeyUpe: function(event) {
+	handleKeyUp: function(event) {
 		
 		if (event.keyCode === 13) {
 			this.props.onSearch(this.state.searchingText);
